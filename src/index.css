@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-black: #040714;
+  --color-primary-rg: #ff4d4d;
+  --color-primary-lg: #f6f6c9;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: var(--color-bg); */
+  /* background: linear-gradient(rgba(0, 0,0,0.78) , rgba(0, 0, 0, 0.83)); */
+  background: var(--color-bg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 1;
+  content: "";
+  color: var(--color-white);
+  /* background-image: url(../src/assets/background-image.jpg); */
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+/* some of the media queries for medium devices */
+@media screen and (max-width: 1024px) {
+  div {
+    width: var(--container-width-md);
+  }
+}
+/* media queries for small devices like mobiles */
+@media screen and (max-width: 600px) {
+  div {
+    width: var(--container-width-sd);
+  }
+}

@@ -1,0 +1,70 @@
+.about__mid {
+  margin: 4% 10% 0 10%;
+  display: flex;
+  height: 100vh;
+}
+.one__css {
+  width: 25%;
+  margin-top: 10%;
+  height: fit-content;
+}
+.one__css h6 {
+  font-size: 5.313rem;
+  font-weight: bold;
+  z-index: 2;
+  margin-top: 1rem 0;
+  color: bisque;
+  z-index: 2;
+  border: none;
+}
+.stars {
+  color: bisque;
+}
+.one__css p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  color: lightgray;
+  text-align: start;
+  width: 70%;
+}
+.two__css {
+  width: 65%;
+}
+.about_img {
+  position: relative;
+  width: 38.5rem;
+  height: 28rem;
+  background-image: url("/public/images/about_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  opacity: 1;
+  border-radius: 0 35% 0 0;
+  z-index: 1;
+  left: 38%;
+}
+.two__css h2 {
+  position: absolute;
+  z-index: 1;
+  top: 29%;
+  left: 44%;
+  font-size: 3rem;
+  display: inline-block;
+  width: 30rem;
+
+  border: none;
+}
+.two__css p {
+  z-index: 1;
+  position: absolute;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  color: lightgray;
+  text-align: start;
+  width: 25%;
+  top: 40%;
+  left: 45%;
+}

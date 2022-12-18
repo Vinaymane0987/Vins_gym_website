@@ -1,0 +1,146 @@
+.career {
+  background: rgb(26, 26, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 26, 28, 1) 0%,
+    rgba(59, 59, 63, 1) 54%,
+    rgba(15, 14, 19, 1) 100%
+  );
+  position: relative;
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  width: 100%;
+}
+.career__content {
+  display: flex;
+  position: relative;
+  margin: 0 10% 0 10%;
+  height: 100vh;
+}
+.job__list h3 {
+  padding: 1rem 0 1rem 0;
+  font-size: 1rem;
+  text-transform: lowercase;
+  color: rgb(214, 117, 204);
+}
+.job__list h1 {
+  padding: 1rem 0 1rem 0;
+  font-size: 3rem;
+}
+.job__list p {
+  padding: 1rem 0 1rem 0;
+  font-size: 0.8rem;
+  color: lightgrey;
+}
+.job__list {
+  width: 30%;
+  margin-top: 15%;
+}
+.first__container {
+  height: fit-content;
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+  width: 20rem;
+  padding: 1rem;
+  box-shadow: rgba(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgba(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scaleY(1.05);
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgb(55, 55, 116);
+}
+.three__css1 {
+  height: fit-content;
+  position: absolute;
+  bottom: 25%;
+  left: 65%;
+  width: 20rem;
+  padding: 1rem;
+  box-shadow: rgba(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgba(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scaleY(1.15);
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.four__css1 {
+  height: fit-content;
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  width: 20rem;
+  padding: 1rem;
+  transform: scaleY(1.15);
+  border-radius: 1rem;
+  box-shadow: rgba(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgba(0 0 0 / 73%) 0px 16px 10px -10px;
+  border: 1px solid black;
+}
+.four__css1 h6 {
+  border: none;
+  font-size: 2rem;
+}
+
+.fullTime__job3 {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+}
+.fullTime__job3 p {
+  color: lightgrey;
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+.three__css1 h6 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.heading__css {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+}
+.fullTime__job2 {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+}
+.fullTime__job2 p {
+  color: lightgrey;
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+.fullTime__job {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem 0;
+}
+.station {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem 0;
+}
+.first__container h6 {
+  font-size: 1.5rem;
+  color: white;
+  margin: 1rem 0;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}

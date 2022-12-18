@@ -1,0 +1,85 @@
+.about {
+  position: relative;
+  height: 320vh;
+  width: 100%;
+  background: rgb(55, 55, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(55, 55, 116, 1) 0%,
+    rgba(72, 72, 105, 1) 44%,
+    rgba(26, 23, 62, 1) 100%
+  );
+}
+.grid__css1 {
+  margin: 0 10% 0 10%;
+  display: grid;
+  grid-gap: 25px;
+  gap: 25px;
+  position: relative;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  z-index: 3;
+  height: 40vh;
+  overflow-y: visible;
+}
+#grid__container__content1 {
+  padding: 2rem;
+  border: 1px solid rgb(55, 55, 116);
+  background: rgb(55, 55, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(55, 55, 116, 1) 0%,
+    rgba(72, 72, 105, 1) 44%,
+    rgba(26, 23, 62, 1) 100%
+  );
+  border-radius: 5px;
+  box-shadow: rgba(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgba(0 0 0 / 73%) 0px 16px 10px -10px;
+  transform: scaleY(1.1);
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#grid__container__content1 h7 {
+  margin-top: 2rem;
+  /* margin-bottom: 0.3rem; */
+  margin-left: 1rem;
+}
+#grid__container__content1 p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  color: lightgray;
+}
+
+#grid__container__content1 a {
+  color: #fff;
+  padding-right: 1rem;
+}
+.a_tag {
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.react__icon {
+  border: 1px solid rgb(55, 55, 116);
+  background-color: white;
+  color: black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .grid__css {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
